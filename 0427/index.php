@@ -11,6 +11,7 @@
             background-color: #eee;
 
         }
+        
         .container{
             border: 6px solid #ccc;
             border-style: double;
@@ -21,10 +22,16 @@
             /* align-content: center; */
         }
         .logo{
-            width: 100%;
+            width: 80%;
+            border-bottom: 2px  solid #222;
             /* height: 120px; */
             text-align: center;
             padding: 6px;
+            margin: auto;
+        }
+        nav{
+            border-bottom: 1px solid #aaa;
+            width: 80%;
             margin: auto;
         }
         img{
@@ -34,9 +41,9 @@
         hr{
             width: 80%;
         }
-        .upline{
+        /* .upline{
             border: 1px solid ;
-        }
+        } */
         /* nav{
         } */
         ul{
@@ -66,9 +73,10 @@
         }
         p{
             text-align: left;
-            width: 80%;
+            width: 70%;
             margin: auto;
-            padding: 10px;
+            padding-left: 50px;
+            text-indent: -3em;
         }
     </style>
 </head>
@@ -78,7 +86,7 @@
         <div class="logo">
             <h2>PHP 練習範例</h2>
         </div>
-        <hr class="upline">
+        <!-- <hr class="upline"> -->
         <nav>
             <ul>
                 <li> <a href=""> HOME</a></li>
@@ -89,13 +97,14 @@
                 <li> <a href="./s20230428_07_postion_fixed.html">FIXED</a></li>
             </ul>
         </nav>
-        <hr class="down">
+        <!-- <hr class="down"> -->
         <br>
         <div class="img">
-            <img src="./images/content.png" style="width: 100%;height: 100%;"alt="">
+            <!-- <img src="./images/content.png" style="width: 100%;height: 100%;"alt=""> -->
         </div>
         <div class="footer">
-            <p>age: </p>
+            <p>AGE: 以get表單傳送資料給target.php，target.php接收資料後，利用if else 判斷出資料是否存在及年齡所在的區間。</p>
+            <p>CALENDAR: 萬年曆的資料用div承接。</p>
             <p>: 。</p>
         </div>
     </div>
