@@ -76,15 +76,15 @@
 <body>
     <div class="container">
         <div class="logo">
-            <h2>CSS範例</h2>
+            <h2>PHP 練習範例</h2>
         </div>
         <hr class="upline">
         <nav>
             <ul>
                 <li> <a href=""> HOME</a></li>
-                <li> <a href="./s20230428_02_float_example.html"> FLOAT</a></li>
-                <li> <a href="./s20230428_03_position.html"> POSITION</a></li>
-                <li> <a href="./s20230428_04_stcky_ad.html"> STICKY</a></li>
+                <li> <a href="./age/age_form.php"> AGE</a></li>
+                <li> <a href="./cal/calendar.php"> CALENDAR</a></li>
+                <li> <a href="./login/login.php"> LOGIN</a></li>
                 <li> <a href="./s20230428_06_postion_relative.html">RELATIVE</a></li>
                 <li> <a href="./s20230428_07_postion_fixed.html">FIXED</a></li>
             </ul>
@@ -95,7 +95,7 @@
             <img src="./images/content.png" style="width: 100%;height: 100%;"alt="">
         </div>
         <div class="footer">
-            <p>float: 此屬性設定的效果在於取消物件（或容器）的inline及block的特性，而將物件置放在容器的left或right。</p>
+            <p>age: </p>
             <p>: 。</p>
         </div>
     </div>
