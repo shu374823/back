@@ -104,7 +104,7 @@
         </div>
         <div class="footer">
             <p>AGE: 以get表單傳送資料給target.php，target.php接收資料後，利用if else 判斷出資料是否存在及年齡所在的區間。</p>
-            <p>CALENDAR: 萬年曆的資料用div承接。</p>
+            <p>CALENDAR: 萬年曆的資料用div來承接經過forloop回圈所產生的資料，並以ifelse判斷資料前方與後方，來放入空白資料。</p>
             <p>: 。</p>
         </div>
     </div>

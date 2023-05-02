@@ -1,4 +1,17 @@
-<h1>表單傳值</h1>
+<style>
+    a{
+        text-decoration: none;
+        color: #eee;
+        ;
+    }
+    a:hover{
+        color: #999;
+    }
+    h1{
+        display: inline-block;
+    }
+</style>
+<h1>表單傳值 </h1><a href="../index.php"> - 囘首頁 - </a>
 <h3>GET</h3>
 
 <form action="target.php" method="get">
