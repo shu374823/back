@@ -2,8 +2,8 @@
 
 <h2>月曆</h2>
 <?php
-$month=$_GET['month']??date("n");    //取得當前的月份"1-12"不補零
-$year=$_GET['year']??date("Y"); //取得西元年份;
+$month=$_GET['month']??date("n");    //取得當前的月份
+$year=$_GET['year']??date("Y"); //取得年份;
 $firstDateTime=strtotime("$year-$month-1");    //取得當前月份第一天
 $days=date("t",$firstDateTime);     //取得當前月份的總天數
 $finalDateTime=strtotime("$year-$month-$days");    //取得當前月份最後一天
