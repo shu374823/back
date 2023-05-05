@@ -1,4 +1,7 @@
 <h1>BMI計算</h1>
+<a href="../index.php">囘 PHP 練習範例</a>
+<br>
+<br>
 <form action="result.php" method="get">
     <div>
         <label for="height">身高(公分)</label>    

@@ -12,6 +12,9 @@ if(!empty($_POST)){
 
 ?>
 <h1>登入頁面</h1>
+<a href="../index.php">囘 PHP 練習範例</a>
+<br>
+<br>
 <!-- <form action="?" method="post"> -->
 <?php
 if(isset($_GET['error'])){

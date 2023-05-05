@@ -93,8 +93,8 @@
                 <li> <a href="./age/age_form.php"> AGE</a></li>
                 <li> <a href="./cal/calendar.php"> CALENDAR</a></li>
                 <li> <a href="./login/login.php"> LOGIN</a></li>
-                <li> <a href="./s20230428_06_postion_relative.html">RELATIVE</a></li>
-                <li> <a href="./s20230428_07_postion_fixed.html">FIXED</a></li>
+                <li> <a href="./bmi/bmi_form.php">BMI</a></li>
+                <!-- <li> <a href="./s20230428_07_postion_fixed.html">FIXED</a></li> -->
             </ul>
         </nav>
         <!-- <hr class="down"> -->

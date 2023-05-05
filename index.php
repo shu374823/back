@@ -11,7 +11,6 @@
             background-color: #eee;
 
         }
-        
         .container{
             border: 6px solid #ccc;
             border-style: double;
@@ -22,16 +21,10 @@
             /* align-content: center; */
         }
         .logo{
-            width: 80%;
-            border-bottom: 2px  solid #222;
+            width: 100%;
             /* height: 120px; */
             text-align: center;
             padding: 6px;
-            margin: auto;
-        }
-        nav{
-            border-bottom: 1px solid #aaa;
-            width: 80%;
             margin: auto;
         }
         img{
@@ -41,9 +34,9 @@
         hr{
             width: 80%;
         }
-        /* .upline{
+        .upline{
             border: 1px solid ;
-        } */
+        }
         /* nav{
         } */
         ul{
@@ -73,10 +66,9 @@
         }
         p{
             text-align: left;
-            width: 70%;
+            width: 80%;
             margin: auto;
-            padding-left: 50px;
-            text-indent: -3em;
+            padding: 10px;
         }
     </style>
 </head>
@@ -84,27 +76,26 @@
 <body>
     <div class="container">
         <div class="logo">
-            <h2>PHP 練習範例</h2>
+            <h2>BACK &nbsp INDEX</h2>
         </div>
-        <!-- <hr class="upline"> -->
+        <hr class="upline">
         <nav>
             <ul>
-                <li> <a href=""> HOME</a></li>
-                <li> <a href="./age/age_form.php"> AGE</a></li>
-                <li> <a href="./cal/calendar.php"> CALENDAR</a></li>
-                <li> <a href="./login/login.php"> LOGIN</a></li>
-                <li> <a href="./s20230428_06_postion_relative.html">RELATIVE</a></li>
-                <li> <a href="./s20230428_07_postion_fixed.html">FIXED</a></li>
+                <li> <a href="./login/index.php"> LOGIN </a></li>
+                <li> <a href="./basic/index.html"> BASIC </a></li>
+                <li> <a href="./1121-php-login/index.php"> 1121-php-login </a></li>
+                <li> <a href="./form_php/index.php"> FORM &nbsp PHP</a></li>
+                <li> <a href="./states_session/login.php">SESSION</a></li>
+                <!-- <li> <a href="./s20230428_07_postion_fixed.html">FIXED</a></li> -->
             </ul>
         </nav>
-        <!-- <hr class="down"> -->
+        <hr class="down">
         <br>
         <div class="img">
-            <!-- <img src="./images/content.png" style="width: 100%;height: 100%;"alt=""> -->
+            <img src="./images/content.png" style="width: 100%;height: 100%;"alt="">
         </div>
         <div class="footer">
-            <p>AGE: 以get表單傳送資料給target.php，target.php接收資料後，利用if else 判斷出資料是否存在及年齡所在的區間。</p>
-            <p>CALENDAR: 萬年曆的資料用div來承接經過forloop回圈所產生的資料，並以ifelse判斷資料前方與後方，來放入空白資料。</p>
+            <p>float: 此屬性設定的效果在於取消物件（或容器）的inline及block的特性，而將物件置放在容器的left或right。</p>
             <p>: 。</p>
         </div>
     </div>

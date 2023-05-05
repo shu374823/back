@@ -11,7 +11,10 @@
         display: inline-block;
     }
 </style>
-<h1>表單傳值 </h1><a href="../index.php"> - 囘首頁 - </a>
+<h1>表單傳值 </h1>
+<a href="../index.php">囘 PHP 練習範例</a>
+<br>
+<br>
 <h3>GET</h3>
 
 <form action="target.php" method="get">

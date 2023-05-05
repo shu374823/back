@@ -1,6 +1,9 @@
 <link rel="stylesheet" href="style.css">
 
 <h2>月曆</h2>
+<a href="../index.php">囘 PHP 練習範例</a>
+<br>
+<br>
 <?php
 $month=$_GET['month']??date("n");    //取得當前的月份
 $year=$_GET['year']??date("Y"); //取得年份;

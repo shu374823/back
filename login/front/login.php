@@ -18,12 +18,12 @@ if(isset($_SESSION['login'])){
             ?>
         </div>
         <div>
-            <label for="idacc">帳號id ：</label>
-            <input type="text" name= "acc" id= "idacc">
+            <label for="acc">帳號id ：</label>
+            <input type="text" name= "acc" id= "acc">
         </div>
         <div>
-            <label for="idpw">帳號id ：</label>
-            <input type="password" name= "pw" id= "idpw">
+            <label for="pw">密碼id ：</label>
+            <input type="password" name= "pw" id= "pw">
         </div>
         <div>
             <input type="submit" value= "登入">

@@ -22,7 +22,7 @@ if($_post['acc']== $acc && $_POST['pw']== $pw){
     
     // 判斷 $_SESSION['login'] 是否存在,若存在則刪除
     if(isset($_SESSION['login'])){
-        unset($_SESSION['login']);
+        // unset($_SESSION['login']);
     }
     // redirect the browser to location:url
     header("location: ../index.php");
