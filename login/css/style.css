@@ -35,5 +35,24 @@ form > div{
     margin: 10px;
 }
 
+input input{
+    border: 0;
+    border-bottom: 1px solid #aaa;
+}
+
+input[type='submit']{
+    border: 0;
+    background-color: #lightblue;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+input[type='submit']:hover {
+    cursor: pointer;
+    background-color: deepskyblue;
+    color: yellow;
+}
+
+
 
 

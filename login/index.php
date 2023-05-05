@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -22,9 +23,8 @@
             <!-- 判斷 $_SESSION 中是否有 login 。有 ：echo 歡迎... ；否 ： -->
             <?php
                 if(isset($_SESSION['login'])){
-                    echo "歡迎 : ";
-                    echo $_SESSION['login'];
-                    echo "<a href='./common/logout.php'";
+                    echo "歡迎 : ".$_SESSION['login'];
+                    echo "<a href='./common/logout.php'>登出</a>";
                 }
             ?>
         </div>
