@@ -65,7 +65,7 @@
     <h1> 請輸入您的資料 </h1>
     <br>
     <div class="container">
-        <form action="bmi_f.php" method="get">
+        <form action="bmi_f.php" method="POST">
             <label for="h"> 身高 ： </label>
             <input type="number" name="bmi_h" id="h">
             <label for="h"> （公分） </label>

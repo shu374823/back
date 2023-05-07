@@ -84,8 +84,8 @@
     <h1> 您的體態為 ： </h1>
     <br>
     <?php 
-    $h=$_GET['bmi_h'];
-    $w=$_GET['bmi_w'];
+    $h=$_POST['bmi_h'];
+    $w=$_POST['bmi_w'];
     $bmi= round($w/($h/100*$h/100),2); 
 
     if($bmi>=27){ 
